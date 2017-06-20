@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
+
+.article {
+    font-family: 'Genitum Book Basic' ;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.article li {
+    margin: 2em 0;
+}
+
+.article p span {
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    margin-top: 3em;
+    background: grey;
+    text-align: center;
+    padding: 1em 0;
+    color: whitesmoke;
+}
+
+.a-lead {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navbar-brand{
+        text-transform: uppercase;
+}

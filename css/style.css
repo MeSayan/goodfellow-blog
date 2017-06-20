@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+.article {
+    font-family: "Gentium Book Basic",  serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.article li {
+    margin: 2.5em 0;
+}
+
+.article-title {
+    font-family: "Tangerine", cursive;
+    font-size: 3em;
+}
+
+.article p span {
+    font-weight: bold;
+}
+
+footer.page {
+    width: 100%;
+    margin-top: 3em;
+    background: grey;
+    text-align: center;
+    padding: 1em 0;
+    color: whitesmoke;
+}
+
+.a-lead {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navbar-brand{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.center-text {
+    font-family: "Gentium Book Basic",serif;
+    line-height: 1.5em;
+    font-size: 1.5em;    
+}
+
+h1 {
+    font-family: "Cutive Mono", monospace;
+    text-align: center;
+}
+
+.article-list {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.fav-moment {
+    margin: 2em 0;
+}
+
+.fav-moment h4:first-child{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 0;
+}
