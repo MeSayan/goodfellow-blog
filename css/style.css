@@ -2,6 +2,29 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
+/* Styles for Navbar */
+.navbar-brand{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 0 2px 0.3 black;
+}
+
+.navbar-custom {
+    padding: 2em 0;
+    box-shadow: 0 15px #eee ; 
+}
+
+.icon-bar {
+    background-color: red;
+}
+
+ul.nav a:hover {
+    background-color: orange;
+}
+
+
+
+/* Styles for Article */
 .article {
     font-family: "Gentium Book Basic",  serif;
     font-size: 1.5em;
@@ -22,42 +45,6 @@
     font-weight: bold;
 }
 
-footer.page {
-    width: 100%;
-    margin-top: 3em;
-    background: grey;
-    text-align: center;
-    padding: 1em 0;
-    color: whitesmoke;
-}
-
-.a-lead {
-    font-weight: bold;
-    font-style: italic;
-}
-
-.navbar-brand{
-    font-size: 2em;
-    text-transform: uppercase;
-}
-
-.center-text {
-    font-family: "Gentium Book Basic",serif;
-    line-height: 1.5em;
-    font-size: 1.5em;    
-}
-
-h1 {
-    font-family: "Cutive Mono", monospace;
-    text-align: center;
-}
-
-.article-list {
-    margin-top: 2.5em;
-    font-size: 1.5em;
-    list-style: none;
-}
-
 .fav-moment {
     margin: 2em 0;
 }
@@ -69,4 +56,43 @@ h1 {
 
 blockquote {
     margin: 1em 0;
+}
+
+.a-lead {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+.center-text {
+    font-family: "Gentium Book Basic",serif;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding-bottom: 2em;
+    box-shadow: 0 15px #eee;
+}
+
+h1 {
+    font-family: "Cutive Mono", monospace;
+    text-align: center;
+}
+
+.article-list {
+    padding-top: 2em;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+
+
+/* Styles for footer */
+
+footer.page {
+    width: 100%;
+    margin-top: 3em;
+    background: grey;
+    text-align: center;
+    padding: 1em 0;
+    color: whitesmoke;
 }
