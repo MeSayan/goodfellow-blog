@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
@@ -6,7 +5,8 @@
 .navbar-brand{
     font-size: 2em;
     text-transform: uppercase;
-    text-shadow: 0 2px 0.3 black;
+    text-shadow: 0 5px 10px lightblue;
+    letter-spacing: 5px;
 }
 
 .navbar-custom {
@@ -24,21 +24,66 @@ ul.nav a:hover {
 
 
 
+#wapp-btn{
+    margin-left: 7px;
+    background-color: green;
+    border-radius: 8px;
+    height: 30px;
+    padding-bottom: 15px;
+}
+
+#wapp-btn a {
+    color: white;
+}
+
+#fb-btn {
+    display: inline;
+    position: relative;
+    top: 10px;
+}
+
+span.share-text {
+    font-size: 0.75em;
+    #padding-right: 1em;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: coral;
+}
+/*
+div.fb-share-button {
+    display: inline;
+    position: relative;
+    top: 2px;
+    background-color: #3b5998;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+div.fb-share-button a{
+    color: white;
+    font-size: 0.75em;
+}
+*/
 /* Styles for Article */
+.article p {
+    margin: 2em 0;
+}
+
 .article {
-    font-family: "Gentium Book Basic",  serif;
+    font-family: "Georgia","Times New Roman", serif;
     font-size: 1.5em;
     line-height: 1.5em;
-    text-align: justify;
+    text-align: left;
 }
 
 .article li {
-    margin: 2.5em 0;
+    #margin: 2.5em 0;
 }
 
 .article-title {
     font-family: "Tangerine", cursive;
     font-size: 3em;
+    text-align: center;
 }
 
 .article p span {
@@ -54,19 +99,18 @@ ul.nav a:hover {
     font-weight: bold;
 }
 
-blockquote {
-    margin: 1em 0;
-}
-
 .a-lead {
     font-weight: bold;
-    font-style: italic;
+    #font-style: italic;
 }
 
+.art-credentials {
+    font-size: 0.75em;
+}
 
 
 .center-text {
-    font-family: "Gentium Book Basic",serif;
+    font-family: "Georgia","Times New Roman",serif;
     line-height: 1.5em;
     font-size: 1.5em;
     padding-bottom: 2em;
@@ -76,6 +120,7 @@ blockquote {
 h1 {
     font-family: "Cutive Mono", monospace;
     text-align: center;
+    font-size: 2em;
 }
 
 .article-list {
@@ -95,4 +140,8 @@ footer.page {
     text-align: center;
     padding: 1em 0;
     color: whitesmoke;
+}
+
+.article-list li a {
+    line-height: 2em;
 }
