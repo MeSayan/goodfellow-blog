@@ -1,2 +1,2 @@
-I am developing a blog and this repo contains the source files .
-
+#Goodfellow Blog
+This repository contains HTML files for my blog: www.mesayan.github.io/goodfellow-blog
